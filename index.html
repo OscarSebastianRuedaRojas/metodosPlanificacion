@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodos Planificacion</title>
+    <script src='js/app.js' type='module' defer></script> 
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel="shortcut icon" href="storage/img/logo.jpg" type="image/jpg">
+</head>
+<body>
+    <div class="formCard">
+        <div class="formCard-body">
+            <form id="taskForm">
+                <fieldset>
+                    <legend style="text-align: center">Ingrese Años</legend>
+                    <div class="form-group">
+                        <input type="text" id="años" name="años" class="años" placeholder="Añadir los años del paciente" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Fecha Ultima Menstruacion</legend>
+                    <div class="form-group">
+                        <input type="date" id="fechaMenstruacion" name="fechaMenstruacion" class="Menstruacion" placeholder="Añadir fecha de la última menstruación" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Fecha última citología</legend>
+                    <div class="form-group">
+                        <input type="date" id="citologia" name="citologia" class="citologia" placeholder="Añadir fecha de la última citología" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Metodo Actual</legend>
+                    <div class="form-group">
+                        <select name="metodo" id="metodoSelect">
+                            <option value="">Ninguno</option>
+                            <option value="Diu">Diu</option>
+                            <option value="Acos">Acos</option>
+                            <option value="Implante Subdermico 3 años">Implante Subdermico 3 años</option>
+                            <option value="Implante Subdermico 4 años">Implante Subdermico 4 años</option>
+                            <option value="Implante Subdermico 5 años">Implante Subdermico 5 años</option>
+                            <option value="Preservativos">Preservativos</option>
+                            <option value="Inyeccion Mensual">Inyeccion Mensual</option>
+                            <option value="Inyeccion Trimestral">Inyeccion Trimestral</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Gestación</legend>
+                    <div class="form-group">
+                        <input type="text" id="gestacion" name="gestacion" class="gestacion" placeholder="Añadir gestación" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Metodo que desea</legend>
+                    <div class="form-group">
+                        <select name="metodoDeseado" id="metodoDeseadoSelect">
+                            <option value="Diu">Diu</option>
+                            <option value="Acos">Acos</option>
+                            <option value="Implante Subdermico 3 años">Implante Subdermico 3 años</option>
+                            <option value="Implante Subdermico 4 años">Implante Subdermico 4 años</option>
+                            <option value="Implante Subdermico 5 años">Implante Subdermico 5 años</option>
+                            <option value="Preservativos">Preservativos</option>
+                            <option value="Inyeccion Mensual">Inyeccion Mensual</option>
+                            <option value="Inyeccion Trimestral">Inyeccion Trimestral</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Menarquia</legend>
+                    <div class="form-group">
+                        <input type="text" id="menarquia" name="menarquia" class="menarquia" placeholder="Añadir Menarquia" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Inicio Vida Sexual</legend>
+                    <div class="form-group">
+                        <input type="text" id="inicioVidaSexual" name="inicioVidaSexual" class="inicioVidaSexual" placeholder="Añadir Inicio Vida Sexual" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend style="text-align: center">Compañeros Sexuales</legend>
+                    <div class="form-group">
+                        <input type="text" id="companerosSexuales" name="companerosSexuales" class="companerosSexuales" placeholder="Añadir Compañeros Sexuales" required>
+                    </div>
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <p class="text">
+
+    </p>
+</body>
+</html>
