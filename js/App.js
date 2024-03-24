@@ -1,4 +1,5 @@
 const form = document.querySelector('#taskForm')
+
 const p = document.querySelector(".text")
 form.addEventListener('submit', (e) => {
     let data = Object.fromEntries(new FormData(form).entries());
